@@ -28,5 +28,7 @@ NOTE: Configuration depends on the model which data is collected from.
 }
 ```
 
+You may need dependencies.  Most scripts require: `request`, `jsdom`, `influx`, and `moment`.  You can install those using `npm install <package>` in the run directory you want to use, with your `config.json`.
+
 Then, you can schedule a task in either Task Scheduler on Windows, or make a systemd/initd script to run the node.js script:
 `node server.js`
