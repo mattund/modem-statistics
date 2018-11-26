@@ -25,7 +25,7 @@ Alerts (via a slack-to-discord relay):
 **DSL Modems**:
  - SR555ac
 
-If you would like to have a modem supported with a node.js scraper script, either create a pull request, or open an issue with the modem's path to the signal statistics page.  Make sure to include an HTML excerpt of the signal level markup, and remove any personal information such as CM MAC address, or configuration file names.
+If you would like to have a modem supported with a node.js scraper script, either create a pull request, or open an issue with the modem's path to the signal statistics page.  Make sure to include an HTML excerpt of the signal level markup, and remove any personal information such as CM MAC address, TFTP IP address, any other IP addresses, or configuration file names.
 
 # Usage
 
