@@ -29,6 +29,8 @@ Alerts (via a slack-to-discord relay):
 
 # Supported Modems
 
+NOTE: "Support" indicates the model below is scrape-able; the node.js application must run on a home router (with custom firmware) or a homelab.
+
 **Coaxial Cable Modems**:
  - MB8600 (DOCSIS 3.1)
  
