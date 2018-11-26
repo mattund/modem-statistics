@@ -17,6 +17,8 @@ Most of the collection scripts in the project will buffer datapoints, so even if
 **DSL Modems**:
  - SR555ac
 
+If you would like to have a modem supported with a node.js scraper script, either create a pull request, or open an issue with the modem's path to the signal statistics page.  Make sure to include an HTML excerpt of the signal level markup, and remove any personal information such as CM MAC address, or configuration file names.
+
 # Usage
 
 To run the scripts in this project, create a `config.json` file in the run directory of the script, such as:
