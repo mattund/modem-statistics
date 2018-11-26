@@ -11,10 +11,10 @@ Most of the collection scripts in the project will buffer datapoints, so even if
 
 # Supported Modems
 
-**Cable Modems**:
- - MB8600
+**Coaxial Cable Modems**:
+ - MB8600 (DOCSIS 3.1)
  
-** DSL Modems**:
+**DSL Modems**:
  - SR555ac
 
 # Usage
