@@ -57,3 +57,13 @@ You may need dependencies.  Most scripts require: `request`, `jsdom`, `influx`, 
 
 Then, you can schedule a task in either Task Scheduler on Windows, or make a systemd/initd script to run the node.js script:
 `node server.js`
+
+# Platforms
+
+**Homelab**
+Well, this is easy; just install node.js on a VM or machine in your homelab!
+
+**Router**
+This is trickier.  However, there may be solutions.  If you use Tomato, you can try this thread to get node.js installed on your router, which will allow you to *collect* data from your router, and then I guess you would push the data to an internet-based InfluxDB server.
+https://www.linksysinfo.org/index.php?threads/node-js-on-tomato.70307/
+
