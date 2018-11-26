@@ -6,3 +6,25 @@ Visualization is achieved through the use of the popular data/graphing tool Graf
 I recommend you have the alerts in Grafana route to a slack-based notification channel, or Email.  It's possible to use Discord as a message target, like I do, using a slack-to-discord push notification relay.
 
 ![Dashboard](https://i.imgur.com/0IvDqej.png)
+
+# Usage
+
+To run the scripts in this project, create a `config.json` file in the run directory of the script, such as:
+
+NOTE: Configuration depends on the model which data is collected from.
+```
+{
+	"modem": {
+		"host": "192.168.100.1",
+		"username": "admin",
+		"password": "motorola"
+	},
+	"influxdb": {
+		"host": "(mongodb.yourdomain.net, or 10.12.34.56)",
+		"port": 8086
+	}
+}
+```
+
+Then, you can schedule a task in either Task Scheduler on Windows, or make a systemd/initd script to run the node.js script:
+`node server.js`
