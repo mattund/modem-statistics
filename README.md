@@ -1,4 +1,6 @@
 # modem-statistics
+![Data flow](https://i.imgur.com/DZkeUAz.png)
+
 This project houses a series of node.js+InfluxDB modem statistic collection scripts.  These scripts will automatically log in, and ping your modem (see `models` directory for modems supported) over HTTP every 15 seconds or so to collect various RF environment datapoints.
 
 Please note, this may leave your modem constantly "logged in", which could pose a security risk in some cases.  To avoid this, some modems allow you to log in from an IP address off of your WAN subnet or address, such as 192.168.100.2.
