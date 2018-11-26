@@ -1,0 +1,5 @@
+Dependencies:
+  - request
+  - jsdom
+  - influx
+  - moment
