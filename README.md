@@ -9,6 +9,14 @@ I recommend you have the alerts in Grafana route to a slack-based notification c
 
 Most of the collection scripts in the project will buffer datapoints, so even if InfluxDB goes down, they will eventually all sink without loss.
 
+# Supported Modems
+
+**Cable Modems**:
+ - MB8600
+ 
+** DSL Modems**:
+ - SR555ac
+
 # Usage
 
 To run the scripts in this project, create a `config.json` file in the run directory of the script, such as:
