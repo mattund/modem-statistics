@@ -22,6 +22,7 @@ Alerts (via a slack-to-discord relay):
 # Feature Overview
 
  - Detect physical-layer upgrades (channel bond count, DOCSIS 3.1 OFDM carrier) within seconds
+ - Receive notifications about service outages and signal issues on your phone while you're away (if you have a backup WAN; otherwise, after an outage has ended)
  - Analyze modem data to correlate transport/IP-level issues with RF environment issues
  - Share extremely detailed, useful information with your Internet Service Provider (ISP) for troubleshooting time-specific RF problems (i.e. evening/PM only)
  - Diagnose and/or audit new equipment or physical changes on your system
