@@ -9,7 +9,7 @@ Visualization is achieved through the use of the popular data/graphing tool Graf
 
 I recommend you have the alerts in Grafana route to a slack-based notification channel, or Email.  It's possible to use Discord as a message target, like I do, using a slack-to-discord push notification relay.
 
-See: https://github.com/mattund/docker-slack-discord-relay, which supports re-sending notifications on timeouts or network failures - this is important for me, since I run Grafana and InfluxDB locally behind the modem.  If WAN connectivity is lost (i.e., modem trouble), those alerts don't push to Discord/Slack.
+See: https://github.com/mattund/docker-slack-discord-relay, which supports re-sending notifications on timeouts or network failures - this is important for me, since I run Grafana and InfluxDB locally behind the modem.  If WAN connectivity is lost (i.e., modem trouble), those alerts wouldn't push to Discord/Slack.  With the relay, these are resent until Discord/Slack replies.
 
 ![Dashboard](https://i.imgur.com/0IvDqej.png)
 
