@@ -17,6 +17,13 @@ Alerts (via a slack-to-discord relay):
 
 ![Alerts](https://i.imgur.com/5ydhO5G.png)
 
+# Feature Overview
+
+ - Detect physical-layer upgrades (channel bond count, DOCSIS 3.1 OFDM carrier) within seconds
+ - Analyze modem data to correlate transport/IP-level issues with RF environment issues
+ - Share information with your Internet Service Provider (ISP) for troubleshooting
+ - Diagnose and/or audit new equipment or physical changes on your system
+
 # Supported Modems
 
 **Coaxial Cable Modems**:
