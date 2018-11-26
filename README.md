@@ -7,7 +7,7 @@ Please note, this may leave your modem constantly "logged in", which could pose 
 
 Visualization is achieved through the use of the popular data/graphing tool Grafana, which even supports alerts.  The example provided Grafana dashboard has alerts attached for various recommended signal levels such as: SNR (>=30dB), power (-15 to +15dBmV), and affixing your channel bond count to detect upgrades/partial service mode.
 
-I recommend you have the alerts in Grafana route to a slack-based notification channel, or Email.  It's possible to use Discord as a message target, like I do, using a slack-to-discord push notification relay.
+I recommend you have the alerts in Grafana route to a slack-based notification channel, or Email.  It's possible to use Discord as a message target, like I do, using a slack-to-discord push notification relay.  See: https://github.com/mattund/docker-slack-discord-relay
 
 ![Dashboard](https://i.imgur.com/0IvDqej.png)
 
