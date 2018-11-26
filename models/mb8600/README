@@ -1,3 +1,5 @@
+Last working on the MB8600 version: 8600-6.1.1.19
+
 Dependencies:
   - request
   - jsdom
