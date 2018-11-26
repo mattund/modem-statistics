@@ -11,7 +11,7 @@ I recommend you have the alerts in Grafana route to a slack-based notification c
 
 ![Dashboard](https://i.imgur.com/0IvDqej.png)
 
-Most of the collection scripts in the project will buffer datapoints, so even if InfluxDB goes down, they will eventually all sink without loss.
+Most of the collection scripts in the project will buffer datapoints, so even if InfluxDB goes down, they will eventually all sink without loss.  This is useful if your InfluxDB server is running on a remote, WAN-side endpoint that is inaccessible when your modem is having problems.
 
 Alerts (via a slack-to-discord relay):
 
